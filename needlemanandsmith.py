@@ -1,4 +1,3 @@
-
 #score_type = raw_input("Enter 1 for Needleman & Wunsh, 2 for Smith and Waterman")
 match = raw_input("how many points for match? ")
 mismatch = raw_input("how many points for mismatch? ")
@@ -49,5 +48,4 @@ def needleman(horSeq, verSeq):
 
     print matrix_list
     
-#needleman("dfadf","dfadaf")
 needleman('actcg', 'acagtag')
